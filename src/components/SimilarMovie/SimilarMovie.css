@@ -1,0 +1,9 @@
+img {
+    width: 12rem;
+    aspect-ratio: 4/3;
+    cursor: pointer;
+}
+
+.smhead {
+    position: absolute;
+}

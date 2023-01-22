@@ -22,6 +22,7 @@ h1 {
     margin: auto;
     width: 100vw;
     margin-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 @media screen and (max-width: 680px) {

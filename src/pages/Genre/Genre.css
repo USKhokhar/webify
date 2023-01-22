@@ -74,7 +74,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: transform 0.7s ease;
 }
 
@@ -85,6 +85,7 @@
 #s5:checked~#slide3 {
   transform: translate3d(-60%, 16px, -150px);
   /* transform: translate(-50%, -50%); */
+  cursor: pointer;
 }
 
 #s1:checked~#slide5,
@@ -93,6 +94,7 @@
 #s4:checked~#slide3,
 #s5:checked~#slide4 {
   transform: translate3d(-35%, 8px, -100px);
+  cursor: pointer;
 }
 
 #s1:checked~#slide1,
@@ -109,6 +111,7 @@
 #s4:checked~#slide5,
 #s5:checked~#slide1 {
   transform: translate3d(35%, 8px, -100px);
+  cursor: pointer;
 }
 
 #s1:checked~#slide3,
@@ -117,6 +120,7 @@
 #s4:checked~#slide1,
 #s5:checked~#slide2 {
   transform: translate3d(60%, 16px, -150px);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 680px) {
@@ -140,7 +144,7 @@
 
 #slider input {
   position: absolute;
-
+  cursor: pointer;
   left: 50%;
   z-index: 232;
 

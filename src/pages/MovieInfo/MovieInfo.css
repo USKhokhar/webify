@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap");
+
+#movieInfoWrapper {
+    background: url("../../assets/home-bg-desktop.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cove r;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.movieInfo {
+    font-family: "Urbanist", sans-serif;
+    /* border: 1px solid white; */
+}
+
+.moviee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.moiveImg {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.moiveImg img {
+    width: 20rem;
+    aspect-ratio: 4/3;
+    border: 1px solid rebeccapurple;
+}
+
+.moiveImg a {
+    margin-top: 1rem;
+}
+
+.moiveDetail {
+    /* border: 1px solid red; */
+}
+
+.key {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0.4rem 0 0 rem;
+}
+
+.value {
+    color: white;
+}
+
+a {
+    color: white;
+    font-family: "Urbanist";
+    margin: 0 0.4rem 0 0.4rem;
+}
+
+p {
+    /* border: 1px solid red; */
+    margin: 0.4rem 1rem 0.4rem 0;
+}
+
+.similarMovie {
+    /* border: 1px solid red; */
+    display: flex;
+    width: fit-content;
+    margin: auto;
+    margin-top: 6rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.moreMovie {
+    border: 1px solid rebeccapurple;
+    margin: 0 1rem 0 1rem;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import "./Genre.css";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 const Genre = () => {
+  const navigate = useNavigate();
   return (
     <div className="genre-corousel" id="home-corousel">
-      {/* <div className="corousel-btn corousel-left">&larr;</div> */}
-      {/* <div className="corousel-btn corousel-right"> &#8594;</div> */}
       <div id="slider">
-        {/* <div className="control-btn"> */}
         <input
           type="radio"
           name="slider"
@@ -18,7 +19,6 @@ const Genre = () => {
         <input type="radio" name="slider" className="control-menu" id="s3" />
         <input type="radio" name="slider" className="control-menu" id="s4" />
         <input type="radio" name="slider" className="control-menu" id="s5" />
-        {/* </div> */}
 
         <label htmlFor="s1" id="slide1">
           <div className="card genre-card">
@@ -26,8 +26,17 @@ const Genre = () => {
               src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
               alt=""
             />
-            <p>HORROR1</p>
-            <button className="genre-action">ENTER</button>
+            <p>ACTION</p>
+            <button
+              className="genre-action"
+              onClick={() => {
+                navigate("/movie", {
+                  state: { genre: 4 },
+                });
+              }}
+            >
+              ENTER
+            </button>
           </div>
         </label>
         <label htmlFor="s2" id="slide2">
@@ -37,8 +46,17 @@ const Genre = () => {
               src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
               alt=""
             />
-            <p>HORROR2</p>
-            <button className="genre-action">ENTER</button>
+            <p>ROM-COM</p>
+            <button
+              className="genre-action"
+              onClick={() => {
+                navigate("/movie", {
+                  state: { genre: 1 },
+                });
+              }}
+            >
+              ENTER
+            </button>
           </div>
         </label>
         <label htmlFor="s3" id="slide3">
@@ -47,8 +65,17 @@ const Genre = () => {
               src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
               alt=""
             />
-            <p>HORROR3</p>
-            <button className="genre-action">ENTER</button>
+            <p>HORROR</p>
+            <button
+              className="genre-action"
+              onClick={() => {
+                navigate("/movie", {
+                  state: { genre: 0 },
+                });
+              }}
+            >
+              ENTER
+            </button>
           </div>
         </label>
         <label htmlFor="s4" id="slide4">
@@ -57,8 +84,17 @@ const Genre = () => {
               src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
               alt=""
             />
-            <p>HORROR4</p>
-            <button className="genre-action">ENTER</button>
+            <p>ANIME</p>
+            <button
+              className="genre-action"
+              onClick={() => {
+                navigate("/movie", {
+                  state: { genre: 3 },
+                });
+              }}
+            >
+              ENTER
+            </button>
           </div>
         </label>
         <label htmlFor="s5" id="slide5">
@@ -67,8 +103,17 @@ const Genre = () => {
               src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
               alt=""
             />
-            <p>HORROR5</p>
-            <button className="genre-action">ENTER</button>
+            <p>MYSTERY</p>
+            <button
+              className="genre-action"
+              onClick={() => {
+                navigate("/movie", {
+                  state: { genre: 2 },
+                });
+              }}
+            >
+              ENTER
+            </button>
           </div>
         </label>
       </div>
