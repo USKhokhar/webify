@@ -13,7 +13,9 @@ header {
 header h2 {
     font: normal 400 2rem/2rem var(--primary-font);
     color: var(--primary-pink);
+    text-decoration: none !important;
 }
+
 
 nav {
     display: flex;
