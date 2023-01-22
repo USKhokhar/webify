@@ -34,3 +34,9 @@
         font-size: 12px;
     }
 }
+
+:any-link {
+    color: inherit;
+
+    text-decoration: none;
+}

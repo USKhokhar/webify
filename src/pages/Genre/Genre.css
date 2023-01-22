@@ -1,18 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap");
 
+.genre-corousel {
+  margin-top: 100vh;
+  height: 75vh;
+}
+
 #slider {
-  position: relative;
+  /* position: relative; */
   perspective: 1000px;
   transform-style: preserve-3d;
   margin-top: 25vh;
   -webkit-user-select: none;
+  user-select: none;
 }
+
 .genre-card {
   /* position: absolute; */
-  width: 236px;
+  /* width: 236px; */
   /* min-height: 300px; */
   height: 350px;
   /* left: 505px; */
+  /* min-width: 200px; */
   /* top: 1225px; */
   display: flex;
   flex-direction: column;
@@ -44,8 +52,9 @@
 
   color: #f56fe2;
 }
+
 .genre-card button {
-  width: 90px;
+  width: 5.6rem;
   height: 23px;
   font-size: 0.5rem;
   background: #070029;
@@ -55,16 +64,12 @@
   margin: auto;
 }
 
-[type="radio"] {
-  display: none;
-}
-
 #slider label {
   margin: auto;
   width: 20%;
   height: 100%;
-  /* width: 206px; */
-  /* height: 300px; */
+
+  min-width: 13rem;
 
   position: absolute;
   left: 0;
@@ -73,49 +78,110 @@
   transition: transform 0.7s ease;
 }
 
-#s1:checked ~ #slide4,
-#s2:checked ~ #slide5,
-#s3:checked ~ #slide1,
-#s4:checked ~ #slide2,
-#s5:checked ~ #slide3 {
-  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+#s1:checked~#slide4,
+#s2:checked~#slide5,
+#s3:checked~#slide1,
+#s4:checked~#slide2,
+#s5:checked~#slide3 {
   transform: translate3d(-60%, 16px, -150px);
+  /* transform: translate(-50%, -50%); */
 }
 
-#s1:checked ~ #slide5,
-#s2:checked ~ #slide1,
-#s3:checked ~ #slide2,
-#s4:checked ~ #slide3,
-#s5:checked ~ #slide4 {
-  /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
+#s1:checked~#slide5,
+#s2:checked~#slide1,
+#s3:checked~#slide2,
+#s4:checked~#slide3,
+#s5:checked~#slide4 {
   transform: translate3d(-35%, 8px, -100px);
-  /* display: none; */
 }
 
-#s1:checked ~ #slide1,
-#s2:checked ~ #slide2,
-#s3:checked ~ #slide3,
-#s4:checked ~ #slide4,
-#s5:checked ~ #slide5 {
-  /* box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19); */
-  transform: translate3d(0, -15px, 50px);
+#s1:checked~#slide1,
+#s2:checked~#slide2,
+#s3:checked~#slide3,
+#s4:checked~#slide4,
+#s5:checked~#slide5 {
+  transform: translate3d(0, 0px, 0px);
 }
 
-#s1:checked ~ #slide2,
-#s2:checked ~ #slide3,
-#s3:checked ~ #slide4,
-#s4:checked ~ #slide5,
-#s5:checked ~ #slide1 {
-  /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
+#s1:checked~#slide2,
+#s2:checked~#slide3,
+#s3:checked~#slide4,
+#s4:checked~#slide5,
+#s5:checked~#slide1 {
   transform: translate3d(35%, 8px, -100px);
 }
 
-#s1:checked ~ #slide3,
-#s2:checked ~ #slide4,
-#s3:checked ~ #slide5,
-#s4:checked ~ #slide1,
-#s5:checked ~ #slide2 {
-  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+#s1:checked~#slide3,
+#s2:checked~#slide4,
+#s3:checked~#slide5,
+#s4:checked~#slide1,
+#s5:checked~#slide2 {
   transform: translate3d(60%, 16px, -150px);
-  /* display: none; */
+}
+
+@media only screen and (max-width: 680px) {
+
+  #s1:checked~#slide3,
+  #s2:checked~#slide4,
+  #s3:checked~#slide5,
+  #s4:checked~#slide1,
+  #s5:checked~#slide2 {
+    transform: translate3d(60%, 16px, -450px);
+  }
+
+  #s1:checked~#slide4,
+  #s2:checked~#slide5,
+  #s3:checked~#slide1,
+  #s4:checked~#slide2,
+  #s5:checked~#slide3 {
+    transform: translate3d(-60%, 16px, -450px);
+  }
+}
+
+#slider input {
+  position: absolute;
+
+  left: 50%;
+  z-index: 232;
+
+  top: 50vh;
+}
+
+#s1 {
+  transform: translateX(-40px);
+}
+
+#s2 {
+  transform: translateX(-20px);
+}
+
+#s4 {
+  transform: translateX(20px);
+}
+
+#s5 {
+  transform: translateX(40px);
+}
+
+@media only screen and (max-width: 680px) {
+
+  #s1:checked~#slide3,
+  #s2:checked~#slide4,
+  #s3:checked~#slide5,
+  #s4:checked~#slide1,
+  #s5:checked~#slide2 {
+    transform: translate3d(60%, 16px, -450px);
+  }
+
+  #s1:checked~#slide4,
+  #s2:checked~#slide5,
+  #s3:checked~#slide1,
+  #s4:checked~#slide2,
+  #s5:checked~#slide3 {
+    transform: translate3d(-60%, 16px, -450px);
+  }
+
+  #slider input {
+    top: 45vh;
+  }
 }
