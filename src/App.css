@@ -55,3 +55,141 @@ body::-webkit-scrollbar-thumb {
     background-color: var(--primary-pink);
     outline: 1px solid var(--primary-blue);
 }
+
+
+/* pOSter */
+
+.mv14 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/9c/1e/2f/9c1e2fcfe740ed0de14fa65bf0425949.jpg') center center/cover no-repeat;
+}
+
+.mv13 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/30/33/e0/3033e06677c67dd4ad63fbdeeb8846cc.jpg') center center/cover no-repeat;
+}
+
+.mv12 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/43/74/63/43746396aea87bda07721438d4c74105.jpg') center center/cover no-repeat;
+}
+
+.mv11 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/2b/e7/f3/2be7f3691fedaf1c23436a7d7b9efbbe.jpg') center center/cover no-repeat;
+}
+
+.mv10 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/74/2a/0a/742a0ac3602e3c55bba9a6a65f9200e9.jpg') center center/cover no-repeat;
+}
+
+/* Horror */
+
+.mv00 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/ee/5b/60/ee5b60cc563d66aa9a8ae134904bde78.jpg') center center/cover no-repeat;
+}
+
+.mv01 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/9b/19/b3/9b19b3056f2fdc58e20eda005c95cd9c.jpg') center center/cover no-repeat;
+}
+
+.mv02 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/17/bd/af/17bdaf4d750008d04dc7e99f2ea207af.jpg') center center/cover no-repeat;
+}
+
+.mv03 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/67/70/9e/67709e43138d569f7b4331f03a933b32.jpg') center center/cover no-repeat;
+}
+
+.mv04 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/07/30/df/0730dfa0b4185cdc616a72fded4ffd54.jpg') center center/cover no-repeat;
+}
+
+/* Mystery */
+.mv20 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/9b/35/1f/9b351f604161c346a6c60d0511a60e22.jpg') center center/cover no-repeat;
+}
+
+.mv21 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/30/ba/62/30ba624c3aeb11c15a105561057d67f3.jpg') center center/cover no-repeat;
+}
+
+.mv22 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/f4/0f/74/f40f741a26b2bf43b9db528cb928128e.jpg') center center/cover no-repeat;
+}
+
+.mv23 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/8d/3c/be/8d3cbe22bdec46645dd68a6d83ef65e9.jpg') center center/cover no-repeat;
+}
+
+.mv24 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/ca/25/ba/ca25bad79feceb9f15b25d82da4ddc2f.jpg') center center/cover no-repeat;
+}
+
+/* Anime */
+
+.mv30 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/e3/9c/08/e39c0811da006645e8ba1b926e2d5a48.jpg') center center/cover no-repeat;
+}
+
+.mv31 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/12/75/d2/1275d2baf203327cf315ac5b40d1b3a0.jpg') center center/cover no-repeat;
+}
+
+.mv32 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/b8/7b/50/b87b500391d3fae122a7418099540452.jpg') center center/cover no-repeat;
+}
+
+.mv33 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/48/bc/b9/48bcb93224a8492bbf9319d8d3652fb0.jpg') center center/cover no-repeat;
+}
+
+.mv34 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/4e/8f/af/4e8faf75597f04c65297baa6d58e2e4d.jpg') center center/cover no-repeat;
+}
+
+/* Action */
+
+.mv40 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/97/54/bb/9754bb9638f17f78bb5335048c97dfb1.jpg') center center/cover no-repeat;
+}
+
+.mv41 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/f3/ce/87/f3ce87a32cc82b433c536822101256b9.jpg') center center/cover no-repeat;
+}
+
+.mv42 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/43/9a/1c/439a1c4583a953c26b63d08a1d832f53.jpg') center center/cover no-repeat;
+
+}
+
+.mv43 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/ea/04/e1/ea04e10c4998865914526e2aa11d9399.jpg') center center/cover no-repeat;
+
+}
+
+.mv44 {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/de/f6/a4/def6a4bff60add5b792157e11b83d1e2.jpg') center center/cover no-repeat;
+
+}

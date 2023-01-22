@@ -16,6 +16,7 @@ const Home = () => {
         </button>
       </div>
       <Genre />
+      <Footer />
     </div>
   )
 }

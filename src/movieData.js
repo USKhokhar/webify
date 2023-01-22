@@ -4,7 +4,9 @@
 const data = [
   [
     {
+      // 00
       title: "Alien",
+      cls: "mv00",
       genre: "Horror",
       description:
         "The crew of a commercial spacecraft encounter a deadly lifeform after investigating an unknown transmission.",
@@ -20,7 +22,9 @@ const data = [
       where_to_watch: "hotstar",
     },
     {
+      // 01
       title: "Psycho",
+      cls: "mv01",
       genre: "Horror",
       description:
         "A Phoenix secretary embezzles $40,000 from her employer's client, goes on the run and checks into a remote motel run by a young man under the domination of his mother.",
@@ -36,7 +40,9 @@ const data = [
       where_to_watch: "youtube",
     },
     {
+      // 02
       title: "The Shining",
+      cls: "mv02",
       genre: "Horror",
       description:
         "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
@@ -52,7 +58,9 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      // 03
       title: "Tumbbad",
+      cls: "mv03",
       genre: "Horror",
       description:
         "A mythological story about a goddess who created the entire universe. The plot revolves around the consequences when humans build a temple for her first-born.",
@@ -68,7 +76,9 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      // 04
       title: "The Thing",
+      cls: "mv04",
       genre: "Horror",
       description:
         "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
@@ -86,7 +96,9 @@ const data = [
   ],
   [
     {
+      // 10
       title: "Forrest Gump",
+      cls: "mv10",
       genre: "Rom-Com",
       description:
         "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life.",
@@ -102,6 +114,8 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      // 11
+      cls: "mv11",
       title: "Life is Beautiful",
       genre: "Rom-Com",
       description:
@@ -119,6 +133,8 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      // 12
+      cls: "mv12",
       title: "Modern Times",
       genre: "Rom-Com",
       description:
@@ -135,7 +151,9 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      // 13
       title: "City Lights",
+      cls: "mv13",
       genre: "Rom-Com",
       description:
         "This classic story of love, tragedy and hope centers around a homeless tramp whom meets and instantly falls in love with a beautiful, albeit blind, flower seller.",
@@ -151,7 +169,9 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      // 14
       title: "Chhichhore",
+      cls: "mv14",
       genre: "Rom-Com",
       description:
         "A tragic incident forces Anirudh, a middle-aged man, to take a trip down memory lane and reminisce his college days along with his friends, who were labelled as losers.",
@@ -169,6 +189,8 @@ const data = [
   ],
   [
     {
+      // 2
+      cls: "mv20",
       title: "Mirror Game",
       genre: "Mystery",
       description:
@@ -185,11 +207,13 @@ const data = [
       where_to_watch: "youtube",
     },
     {
+      // 21
       title: "Se7en",
       genre: "Mystery",
+      cls: "mv21",
       description:
         "Seven (stylized as Se7en) is a 1995 American crime thriller film directed by David Fincher and written by Andrew Kevin Walker. It stars Brad Pitt, Morgan Freeman, Gwyneth Paltrow, and John C. McGinley. Set in a crime-ridden, unnamed city, Seven's plot follows disenchanted, near-retirement detective William Somerset (Freeman) and his new partner, the recently transferred David Mills (Pitt), as they attempt to stop a serial killer before he can complete a series of murders based on the seven deadly sins.",
-      rating: "8,6/10",
+      rating: "8.6/10",
       reviews: {
         rottenToamtoes: "https://www.rottentomatoes.com/m/seven",
         imdb: "https://www.imdb.com/title/tt0114369/",
@@ -203,6 +227,7 @@ const data = [
     {
       title: "The Silence of the Lambs",
       genre: "Mystery",
+      cls: "mv22",
       description:
         'The Silence of the Lambs is a 1991 American psychological horror film directed by Jonathan Demme and written by Ted Tally, adapted from Thomas Harris\'s 1988 novel. It stars Jodie Foster as Clarice Starling, a young FBI trainee who is hunting a serial killer, "Buffalo Bill" (Ted Levine), who skins his female victims. To catch him, she seeks the advice of the imprisoned Dr. Hannibal Lecter (Anthony Hopkins), a brilliant psychiatrist and cannibalistic serial killer. The film also features performances from Scott Glenn, Anthony Heald, and Kasi Lemmons.',
       rating: "8.6/10",
@@ -219,6 +244,7 @@ const data = [
     {
       title: "Rear Window",
       genre: "Mystery",
+      cls: "mv23",
       description:
         "A wheelchair-bound photographer spies on his neighbors from his Greenwich Village courtyard apartment window, and becomes convinced one of them has committed murder, despite the skepticism of his fashion-model girlfriend.",
       rating: "8.6/10",
@@ -234,6 +260,7 @@ const data = [
     },
     {
       title: "The Lives of the Others",
+      cls: "mv24",
       genre: "Mystery",
       description:
         "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
@@ -253,6 +280,7 @@ const data = [
   [
     {
       title: "Spirited Away",
+      cls: "mv30",
       genre: "Anime",
       description:
         "Spirited Away (Japanese: 千と千尋の神隠し, Hepburn: Sen to Chihiro no Kamikakushi, lit.'Sen and Chihiro's Spiriting Away') is a 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki, animated by Studio Ghibli. Spirited Away tells the story of Chihiro Ogino (Hiiragi), a ten-year-old girl who, while moving to a new neighborhood, enters the world of Kami (spirits of Japanese Shinto folklore). After her parents are turned into pigs by the witch Yubaba (Natsuki), Chihiro takes a job working in Yubaba's bathhouse to find a way to free herself and her parents and return to the human world.",
@@ -269,6 +297,7 @@ const data = [
     },
     {
       title: "The Lion King",
+      cls: "mv31",
       genre: "Anime",
       description:
         "The Lion King is a 1994 American animated musical drama film produced by Walt Disney Feature Animation and released by Walt Disney Pictures. It is inspired by William Shakespeare's Hamlet with elements from the Biblical stories of Joseph and Moses and Disney's 1942 film Bambi. Set in a kingdom of lions in Africa, The Lion King tells the story of Simba (Swahili for lion), a lion cub who is to succeed his father, Mufasa.",
@@ -285,6 +314,7 @@ const data = [
     },
     {
       title: "Grave of the Firefiles",
+      cls: "mv32",
       genre: "Anime",
       description:
         "Grave of the Fireflies (Japanese: 火垂るの墓, Hepburn: Hotaru no Haka) is a 1988 Japanese animated war tragedy film based on a 1967 short story by Akiyuki Nosaka. It was written and directed by Isao Takahata, and animated by Studio Ghibli for Shinchosha Publishing. The film stars Tsutomu Tatsumi, Ayano Shiraishi, Yoshiko Shinohara and Akemi Yamaguchi. Set in the city of Kobe, Japan in June 1945, it tells the story of two siblings and war orphans, Seita and Setsuko, and their desperate struggle to survive during the final months of the Second World War. Grave of the Fireflies has been ranked as one of the greatest war films of all time and is recognized as a major work of Japanese animation.",
@@ -302,6 +332,7 @@ const data = [
     },
     {
       title: "Your Name",
+      cls: "mv33",
       genre: "Anime",
       description:
         "Your Name (Japanese: 君の名は。, Hepburn: Kimi no Na wa) is a 2016 Japanese animated romantic fantasy film produced by CoMix Wave Films. It depicts a high school boy in Tokyo and a high school girl in the Japanese countryside who suddenly and inexplicably begin to swap bodies. The film was commissioned in 2014, written and directed by Makoto Shinkai.",
@@ -318,6 +349,7 @@ const data = [
     },
     {
       title: "Spider-Man:Into the Spider-Verse",
+      cls: "mv34",
       genre: "Anime",
       description:
         "It is the first animated film in the Spider-Man franchise. The film's story follows Miles Morales as he becomes the new Spider-Man and joins other Spider-People from various parallel universes to save his universe from Kingpin.",
@@ -338,6 +370,7 @@ const data = [
     {
       title: "The Dark Knight",
       genre: "Action",
+      cls: "mv40",
       description:
         "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
       rating: "9/10",
@@ -352,6 +385,7 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      cls: "mv41",
       title: "The Lord of the Rings: The Return of the King",
       genre: "Aciton",
       description:
@@ -369,6 +403,7 @@ const data = [
       where_to_watch: "primevideo",
     },
     {
+      cls: "mv42",
       title: "Inception",
       genre: "Action",
       description:
@@ -386,6 +421,7 @@ const data = [
     },
     {
       title: "The Matrix",
+      cls: "mv43",
       genre: "Action",
       description:
         "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
@@ -402,6 +438,7 @@ const data = [
     },
     {
       title: "Star Wars: Episode V - The Empire Strikes Back",
+      cls: "mv44",
       genre: "Action",
       description:
         "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",

@@ -4,6 +4,8 @@ import SimilarMovie from "../../components/SimilarMovie/SimilarMovie";
 import "./MovieInfo.css";
 import Navbar from "../../components/Navbar/Navbar";
 import data from "../../movieData";
+import Footer from "../../components/Footer/Footer";
+
 const MovieInfo = () => {
   const state = useLocation();
   console.log(state.state);
@@ -100,6 +102,7 @@ const MovieInfo = () => {
           })}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

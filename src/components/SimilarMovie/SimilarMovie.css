@@ -5,5 +5,12 @@ img {
 }
 
 .smhead {
-    position: absolute;
+    /* position: absolute; */
+}
+
+#similar {
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
