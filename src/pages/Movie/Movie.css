@@ -1,0 +1,87 @@
+@import '../../App.css';
+
+.mv-bg {
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mv-section {
+    /* border: 1px solid var(--primary-drk); */
+    width: 90%;
+    max-width: 880px;
+    height: 70vh;
+    margin: auto;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--primary-blue) 0 0 2rem;
+}
+
+.mv-section:hover {
+    transform: perspective(100rem) rotateY(15deg);
+    transition: transform 500ms ease-in-out 0s;
+}
+
+.mv-txt-content {
+    width: 90%;
+    max-width: 370px;
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.mv-txt-content h3 {
+    font: normal 500 2rem/2rem var(--secondary-font);
+    text-transform: capitalize;
+    color: var(--white);
+}
+
+.mv-txt-content sub {
+    font: normal 300 1rem/1.2rem var(--secondary-font);
+    color: var(--primary-blue);
+    text-align: justify;
+}
+
+.mv-txt-content button {
+    margin: auto;
+    border: 1px solid var(--primary-pink);
+    background: var(--primary-drk);
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    font: normal 300 1rem/1rem var(--secondary-font);
+    color: var(--white);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.mv-txt-content button:hover {
+    background: var(--secondary-grd);
+}
+
+/* POSTERS */
+
+.chhichhore {
+    background: var(--secondary-grd), url('../../../public/posters/chhichhore.jpg') center center/cover no-repeat;
+}
+
+.citylights {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/564x/30/33/e0/3033e06677c67dd4ad63fbdeeb8846cc.jpg') center center/cover no-repeat;
+}
+
+.modern-times {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/43/74/63/43746396aea87bda07721438d4c74105.jpg') center center/cover no-repeat;
+}
+
+.life-is-beautiful {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/2b/e7/f3/2be7f3691fedaf1c23436a7d7b9efbbe.jpg') center center/cover no-repeat;
+}
+
+.forest-gump {
+    background: var(--secondary-grd),
+        url('https://i.pinimg.com/736x/74/2a/0a/742a0ac3602e3c55bba9a6a65f9200e9.jpg') center center/cover no-repeat;
+}

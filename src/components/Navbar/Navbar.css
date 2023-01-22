@@ -1,0 +1,43 @@
+@import '../../App.css';
+
+header {
+    position: fixed;
+    background: transparent;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    z-index: 1;
+}
+
+header h2 {
+    font: normal 400 2rem/2rem var(--primary-font);
+    color: var(--primary-pink);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav input {
+    border: 2px solid var(--primary-pink);
+    border-radius: 16px;
+    padding: 0.5rem 1rem;
+    font: normal 300 1rem/1rem var(--secondary-font);
+    color: var(--primary-pink);
+    background: transparent;
+}
+
+nav input:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 680px) {
+    nav input {
+        display: none;
+    }
+}

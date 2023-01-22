@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary-font: 'Cinzel', serif;
+    --secondary-font: 'Urbanist', sans-serif;
+
+    --primary-drk: hsl(250, 100%, 8%);
+    --primary-pink: hsl(309, 87%, 70%);
+    --white: hsl(0, 0%, 100%);
+    --primary-blue: hsl(223, 83%, 76%);
+
+    --primary-grd: radial-gradient(50% 50% at 50% 50%, rgba(7, 0, 41, 0.79) 24.06%, #070029 100%);
+    --secondary-grd: linear-gradient(110.26deg, rgba(36, 35, 39, 0.91) 30.61%, rgba(147, 131, 224, 0) 88.02%);
+    --secondary-grd-inv: linear-gradient(-10deg, rgba(36, 35, 39, 0.91) 30.61%, rgba(147, 131, 224, 0) 88.02%);
+    --card-back-grd: linear-gradient(0deg, rgba(36, 35, 39, 0.91) 80.61%, rgba(36, 35, 39, 0.91) 80.61%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 680px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    * {
+        font-size: 12px;
+    }
+}

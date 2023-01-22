@@ -1,0 +1,106 @@
+.ab-section {
+    width: 100vw;
+    height: 100vh;
+    min-height: fit-content;
+    background: var(--primary-grd);
+}
+
+.ab-container {
+    /* border: 10px solid salmon; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+}
+
+.ab-card {
+    /* width: 90%;
+    max-width: 260px;
+    min-width: none; */
+    width: 260px;
+    margin: auto;
+    /* height: 360px; */
+    aspect-ratio: 9/12;
+    border-radius: 16px;
+}
+
+.front-content {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding-top: 90%;
+}
+
+.back-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.back-content button {
+    margin: auto;
+}
+
+blockquote {
+    font: normal 500 1.2rem/1.5rem var(--secondary-font);
+    color: var(--primary-blue);
+}
+
+.ab-social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ab-title {
+    font: normal 300 1.5rem/2rem var(--secondary-font);
+    color: var(--primary-pink);
+}
+
+.flip-btn {
+    font: normal 200 1rem/1.2rem var(--primary-font);
+    border: 1px solid var(--primary-pink);
+    margin-top: 1rem;
+    background: transparent;
+    color: var(--primary-pink);
+    transition: 500ms;
+    padding: 0.3rem 1rem;
+}
+
+.flip-btn:hover {
+    background: var(--primary-grd);
+    color: var(--primary-pink);
+}
+
+/* AVATARS */
+
+.tandon {
+    background: var(--secondary-grd-inv),
+        url('https://media.licdn.com/dms/image/D5603AQG8NcH8fust7g/profile-displayphoto-shrink_400_400/0/1671133560169?e=1680134400&v=beta&t=_ibuL8ptkOxBI8ncslXq9G6wALv85TqUcNt5gRbHdpk') center center/cover no-repeat;
+}
+
+.usk {
+    background: var(--secondary-grd-inv),
+        url('https://media.licdn.com/dms/image/D4D03AQFh5RUEZHVysg/profile-displayphoto-shrink_400_400/0/1664706467462?e=1680134400&v=beta&t=FFyknj6E7O4W1Nv5GllXBdHXxCMNSv6y5qGmgH_L15I') center center/cover no-repeat;
+}
+
+.deejai {}
+
+.ab-front {
+    background: var(--secondary-grd-inv),
+        url('https://i.pinimg.com/736x/25/30/d5/2530d5fd431c26ce4ff1deea27a314c9.jpg') center center/cover no-repeat;
+}
+
+.ab-back {
+    background: var(--card-back-grd),
+        url('https://i.giphy.com/media/MaItK5SUgStdm/giphy.gif') center center/cover no-repeat;
+    border: 2px solid var(--primary-pink);
+}

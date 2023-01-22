@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap");
+
+#slider {
+  position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  margin-top: 25vh;
+  -webkit-user-select: none;
+}
+.genre-card {
+  /* position: absolute; */
+  width: 236px;
+  /* min-height: 300px; */
+  height: 350px;
+  /* left: 505px; */
+  /* top: 1225px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(158.05deg, #463d5c 25.14%, #06011c 77.85%);
+  border-radius: 16px;
+  /* transition: all 1s ease-in; */
+}
+
+.genre-card img {
+  display: block;
+  padding-top: 18px;
+  /* width: 191px; */
+  width: 90%;
+  margin: 8px auto;
+}
+
+.genre-card p {
+  font-family: "Urbanist";
+  font-weight: 400;
+  font-size: 1rem;
+
+  margin: 0;
+  margin-top: 12px;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: capitalize;
+
+  color: #f56fe2;
+}
+.genre-card button {
+  width: 90px;
+  height: 23px;
+  font-size: 0.5rem;
+  background: #070029;
+  border: 1px solid rgba(255, 255, 255, 0.719);
+  border-radius: 55px;
+  color: #f56fe2;
+  margin: auto;
+}
+
+[type="radio"] {
+  display: none;
+}
+
+#slider label {
+  margin: auto;
+  width: 20%;
+  height: 100%;
+  /* width: 206px; */
+  /* height: 300px; */
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  transition: transform 0.7s ease;
+}
+
+#s1:checked ~ #slide4,
+#s2:checked ~ #slide5,
+#s3:checked ~ #slide1,
+#s4:checked ~ #slide2,
+#s5:checked ~ #slide3 {
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+  transform: translate3d(-60%, 16px, -150px);
+}
+
+#s1:checked ~ #slide5,
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2,
+#s4:checked ~ #slide3,
+#s5:checked ~ #slide4 {
+  /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
+  transform: translate3d(-35%, 8px, -100px);
+  /* display: none; */
+}
+
+#s1:checked ~ #slide1,
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3,
+#s4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+  /* box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3), 0 11px 7px 0 rgba(0, 0, 0, 0.19); */
+  transform: translate3d(0, -15px, 50px);
+}
+
+#s1:checked ~ #slide2,
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide4,
+#s4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+  /* box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 2px 2px 0 rgba(0, 0, 0, 0.2); */
+  transform: translate3d(35%, 8px, -100px);
+}
+
+#s1:checked ~ #slide3,
+#s2:checked ~ #slide4,
+#s3:checked ~ #slide5,
+#s4:checked ~ #slide1,
+#s5:checked ~ #slide2 {
+  /* box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37); */
+  transform: translate3d(60%, 16px, -150px);
+  /* display: none; */
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
+
+.homeDiv {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homeDiv h1 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+.homeDiv h3 {
+    text-transform: capitalize;
+    width: 22rem;
+    margin: auto;
+    position: relative;
+    top: 0.4rem;
+    font-family: 'Urbanist';
+    font-size: 1.3rem;
+    color: #F56FE2;
+}
+
+.homeDiv button {
+    margin-top: 1.6rem;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    font-weight: 400;
+    color: #E40CEB;
+    background-color: #070029;
+    border: 1px solid #FFFFFF;
+}
+
+@media(max-width:366px) {
+    .homeDiv {
+        margin: 0 0.8rem 0 0.8rem;
+    }
+}
