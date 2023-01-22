@@ -5,8 +5,10 @@ import { useNavigate } from "react-router-dom";
 
 const Genre = () => {
   const navigate = useNavigate();
+  const romcom = 'https://media.istockphoto.com/id/875970634/vector/romantic-film-glyphs-vector-icon.jpg?s=612x612&w=0&k=20&c=s5BrM29Vxgtc9FI3yxT56XCSsSzYq1U18uxTjnkZnc0'
   return (
     <div className="genre-corousel" id="home-corousel">
+      <h1>Explore The Realms!</h1>
       <div id="slider">
         <input
           type="radio"
@@ -23,8 +25,8 @@ const Genre = () => {
         <label htmlFor="s1" id="slide1">
           <div className="card genre-card">
             <img
-              src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
-              alt=""
+              src="https://i.giphy.com/media/lDifyB9R0iqWoDZoIT/giphy.gif"
+              alt="action"
             />
             <p>ACTION</p>
             <button
@@ -43,7 +45,7 @@ const Genre = () => {
           {" "}
           <div className="card genre-card">
             <img
-              src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
+              src='https://i.giphy.com/media/1AHE8DEiw1JG08bwHN/giphy.gif'
               alt=""
             />
             <p>ROM-COM</p>
@@ -62,7 +64,7 @@ const Genre = () => {
         <label htmlFor="s3" id="slide3">
           <div className="card genre-card">
             <img
-              src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
+              src="https://i.giphy.com/media/h5NLPVn3rg0Rq/giphy.gif"
               alt=""
             />
             <p>HORROR</p>
@@ -81,7 +83,7 @@ const Genre = () => {
         <label htmlFor="s4" id="slide4">
           <div className="card genre-card">
             <img
-              src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
+              src="https://i.giphy.com/media/jAe22Ec5iICCk/giphy.gif"
               alt=""
             />
             <p>ANIME</p>
@@ -100,7 +102,7 @@ const Genre = () => {
         <label htmlFor="s5" id="slide5">
           <div className="card genre-card">
             <img
-              src="https://img.freepik.com/premium-photo/3d-illustration-halloween-concept-background-castle-graveyard-horror-background_685067-358.jpg?w=2000"
+              src="https://i.giphy.com/media/8Pa7JAeyhfAeC0IFP8/giphy.gif"
               alt=""
             />
             <p>MYSTERY</p>

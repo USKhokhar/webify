@@ -1,43 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
 
-.homeDiv {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.bg {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    cursor: default !important;
+    z-index: -1;
 }
 
-.homeDiv h1 {
-    text-transform: uppercase;
-    font-size: 2.5rem;
-    color: #FFFFFF;
-}
-
-.homeDiv h3 {
-    text-transform: capitalize;
-    width: 22rem;
+.home-sub {
     margin: auto;
-    position: relative;
-    top: 0.4rem;
-    font-family: 'Urbanist';
-    font-size: 1.3rem;
-    color: #F56FE2;
+    text-align: center;
+    font: normal 300 1.5rem/2rem var(--secondary-font);
+    color: var(--primary-pink);
+    text-transform: capitalize;
 }
 
-.homeDiv button {
-    margin-top: 1.6rem;
-    padding: 0.8rem 1rem 0.8rem 1rem;
-    border-radius: 1.2rem;
+.ex-btn {
+    border: 2px solid var(--primary-pink);
+    font: normal 300 1.2rem/1.5rem var(--secondary-font);
+    border-radius: 16px;
+    background: transparent;
+    padding: 0.5rem 1rem;
+    color: var(--primary-pink);
+    margin: auto;
     cursor: pointer;
-    font-weight: 400;
-    color: #E40CEB;
-    background-color: #070029;
-    border: 1px solid #FFFFFF;
 }
 
-@media(max-width:366px) {
-    .homeDiv {
-        margin: 0 0.8rem 0 0.8rem;
-    }
+.ex-btn:hover {
+    background: var(--primary-dark);
+}
+
+.home-cont {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-content {
+    justify-self: center;
+    align-self: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+.txt-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }

@@ -5,6 +5,7 @@ import { IconContext } from 'react-icons'
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import './About.css'
 import Footer from '../../components/Footer/Footer'
+import Navbar from '../../components/Navbar/Navbar'
 
 const Card = ({state, handleFunction, clsFront, clsBack, name, codeName, quote, insta, lin, gh, tw, det}) => {
   det='2nd Year '
@@ -84,6 +85,7 @@ const About = () => {
   return (
     <>
     <section className='ab-section'>
+      <Navbar />
       <h1>Meet The Team</h1>
       <div className="ab-container">
         <Card

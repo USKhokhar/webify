@@ -2,14 +2,15 @@
 
 .genre-corousel {
   margin-top: 100vh;
-  height: 75vh;
+  height: 100vh;
+
 }
 
 #slider {
   /* position: relative; */
   perspective: 1000px;
   transform-style: preserve-3d;
-  margin-top: 25vh;
+  margin-top: 10vh;
   -webkit-user-select: none;
   user-select: none;
 }
@@ -26,7 +27,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background: linear-gradient(158.05deg, #463d5c 25.14%, #06011c 77.85%);
+  /* background: linear-gradient(158.05deg, #463d5c 25.14%, #06011c 77.85%); */
+  background: var(--secondary-grd-inv), var(--primary-blue);
   border-radius: 16px;
   /* transition: all 1s ease-in; */
 }
@@ -56,12 +58,13 @@
 .genre-card button {
   width: 5.6rem;
   height: 23px;
-  font-size: 0.5rem;
+  font-size: 1rem;
   background: #070029;
   border: 1px solid rgba(255, 255, 255, 0.719);
   border-radius: 55px;
   color: #f56fe2;
   margin: auto;
+  cursor: pointer;
 }
 
 #slider label {

@@ -1,8 +1,7 @@
 @import '../../App.css';
 
 header {
-    position: fixed;
-    background: transparent;
+    /* position: fixed; */
     width: 100vw;
     display: flex;
     justify-content: space-around;
@@ -37,7 +36,7 @@ nav input:focus {
 }
 
 @media screen and (max-width: 680px) {
-    nav input {
+    nav {
         display: none;
     }
 }
