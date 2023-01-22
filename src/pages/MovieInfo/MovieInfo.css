@@ -126,6 +126,6 @@ p {
     }
 }
 
-#movieInfoWrapper a {
+.under {
     text-decoration: underline rgba(255, 255, 255, 0.379);
 }

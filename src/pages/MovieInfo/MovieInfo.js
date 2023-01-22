@@ -22,7 +22,7 @@ const MovieInfo = () => {
       <div className="movieInfo">
         <div className="moviee">
           <div className={`moiveImg m2v${genre}${id}`}>
-            <a style={{ color: "white ", backgroundColor: 'hsl(309, 87%, 10%)' }} href={data[genre][id].trailer_link} target='_blank'>
+            <a style={{ color: "white ", backgroundColor: 'hsl(309, 87%, 10%)' }} href={data[genre][id].trailer_link} target='_blank' className="under">
               Watch Trailer
             </a>
           </div>
@@ -51,12 +51,12 @@ const MovieInfo = () => {
             <p>
               <span className="key">Reviews</span>{" "}
               <span className="value">
-                <a href={data[genre][id].reviews.rottenToamtoes}>
+                <a href={data[genre][id].reviews.rottenToamtoes} className='under'>
                   Rotten Tomatos
                 </a>
               </span>
               <span className="value">
-                <a href={data[genre][id].reviews.imdb} target='_blank'>ImDb</a>
+                <a href={data[genre][id].reviews.imdb} target='_blank' className="under">ImDb</a>
               </span>
             </p>
             <p>
@@ -66,7 +66,7 @@ const MovieInfo = () => {
             <p>
               <span className="key">Where To Watch</span>{" "}
               <span className="value">
-                <a href={`https://www.${data[genre][id].where_to_watch}.com`} target='_blank'>
+                <a href={`https://www.${data[genre][id].where_to_watch}.com`} target='_blank' className="under">
                   {data[genre][id].where_to_watch}
                 </a>
               </span>
