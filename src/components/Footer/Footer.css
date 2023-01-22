@@ -17,3 +17,7 @@ footer {
 .ft-link:hover {
     color: var(--white);
 }
+
+sub {
+    text-decoration: none !important;
+}
