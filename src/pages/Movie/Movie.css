@@ -19,11 +19,6 @@
     box-shadow: var(--primary-blue) 0 0 2rem;
 }
 
-.mv-section:hover {
-    transform: perspective(100rem) rotateY(15deg);
-    transition: transform 500ms ease-in-out 0s;
-}
-
 .mv-txt-content {
     width: 90%;
     max-width: 370px;

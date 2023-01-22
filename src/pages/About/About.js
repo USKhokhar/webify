@@ -82,6 +82,7 @@ const About = () => {
   }
 
   return (
+    <>
     <section className='ab-section'>
       <h1>Meet The Team</h1>
       <div className="ab-container">
@@ -135,8 +136,9 @@ det='2nd Year CSE'
           insta='https://www.instagram.com/kartikey.tandon_18/'
         />
       </div>
-      <Footer />
     </section>
+    <Footer />
+    </>
   )
 }
 
