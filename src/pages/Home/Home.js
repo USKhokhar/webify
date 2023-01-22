@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar'
 import Genre from '../Genre/Genre'
+import Footer from '../../components/Footer/Footer'
 
 const Home = () => {
   return (

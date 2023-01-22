@@ -1,0 +1,19 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    background: var(--primary-grd);
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem 0;
+}
+
+.ft-link {
+    font: normal 300 1.2rem/1.5rem var(--primary-font);
+    color: var(--primary-blue);
+}
+
+.ft-link:hover {
+    color: var(--white);
+}

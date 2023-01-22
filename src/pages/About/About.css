@@ -1,8 +1,17 @@
 .ab-section {
     width: 100vw;
-    height: 100vh;
-    min-height: fit-content;
+    /* min-height: fit-content; */
+    height: fit-content;
+    min-height: 100vh;
     background: var(--primary-grd);
+    overflow-x: hidden !important;
+}
+
+h1 {
+    font: normal 700 2rem/2.2rem var(--primary-font);
+    color: var(--primary-blue);
+    text-align: center;
+    padding: 2rem 0;
 }
 
 .ab-container {
@@ -11,18 +20,19 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 100vw;
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 680px) {
+    .ab-container {
+        margin-top: 3rem;
+        gap: 2rem;
+    }
 }
 
 .ab-card {
-    /* width: 90%;
-    max-width: 260px;
-    min-width: none; */
-    width: 260px;
+    width: 15rem;
     margin: auto;
     /* height: 360px; */
     aspect-ratio: 9/12;
@@ -60,6 +70,8 @@ blockquote {
     gap: 1rem;
 }
 
+
+
 .ab-title {
     font: normal 300 1.5rem/2rem var(--secondary-font);
     color: var(--primary-pink);
@@ -71,8 +83,8 @@ blockquote {
     margin-top: 1rem;
     background: transparent;
     color: var(--primary-pink);
-    transition: 500ms;
     padding: 0.3rem 1rem;
+    cursor: pointer;
 }
 
 .flip-btn:hover {
@@ -89,18 +101,26 @@ blockquote {
 
 .usk {
     background: var(--secondary-grd-inv),
-        url('https://media.licdn.com/dms/image/D4D03AQFh5RUEZHVysg/profile-displayphoto-shrink_400_400/0/1664706467462?e=1680134400&v=beta&t=FFyknj6E7O4W1Nv5GllXBdHXxCMNSv6y5qGmgH_L15I') center center/cover no-repeat;
+        url('../../assets/usk.jpg') center center/cover no-repeat;
 }
 
-.deejai {}
-
-.ab-front {
+.deejai {
     background: var(--secondary-grd-inv),
-        url('https://i.pinimg.com/736x/25/30/d5/2530d5fd431c26ce4ff1deea27a314c9.jpg') center center/cover no-repeat;
+        url('../../assets/deejai.jpg') center center/cover no-repeat;
 }
 
-.ab-back {
+.deejaiBack {
     background: var(--card-back-grd),
-        url('https://i.giphy.com/media/MaItK5SUgStdm/giphy.gif') center center/cover no-repeat;
-    border: 2px solid var(--primary-pink);
+        url('https://i.giphy.com/media/VekcnHOwOI5So/giphy.gif') center center/cover no-repeat;
+}
+
+.tandonBack {
+    background: var(--card-back-grd),
+        url('https://i.giphy.com/media/VRKheDy4DkBMrQm66p/giphy-downsized-large.gif') center center/cover no-repeat;
+}
+
+.uskBack {
+    background: var(--card-back-grd),
+        url('https://i.giphy.com/media/BzyTuYCmvSORqs1ABM/giphy.gif') center center/cover no-repeat;
+
 }

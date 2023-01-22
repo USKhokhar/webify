@@ -1,5 +1,6 @@
 import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import React from 'react'
+import Footer from '../../components/Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar'
 import './Movie.css';
 
@@ -76,6 +77,7 @@ const Movie = () => {
         </ParallaxLayer>
 
       </Parallax>
+      <Footer />
     </>
   )
 }
