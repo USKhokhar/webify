@@ -33,6 +33,9 @@
     /* border: 1px solid red; */
     /* width: fit-content; */
     margin: auto;
+    width: 90%;
+    max-width: 880px;
+    padding-top: 5rem;
 }
 
 .moiveImg {
